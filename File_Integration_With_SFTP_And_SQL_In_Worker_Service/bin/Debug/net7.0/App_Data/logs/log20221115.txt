@@ -1,0 +1,999 @@
+2022-11-15 22:39:02 [INFO]<1> [] ====================================================================
+2022-11-15 22:39:02 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 22:39:02 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 22:50:04 [INFO]<1> [] ====================================================================
+2022-11-15 22:50:05 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 22:50:05 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:02:39 [INFO]<1> [] ====================================================================
+2022-11-15 23:02:39 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 23:02:39 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:02:39 [INFO]<1> [] The runner account is [PORTALDOM\C005339]
+2022-11-15 23:02:40 [FATL]<1> [] Application terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker': Cannot consume scoped service 'File_Integration_With_SFTP_And_SQL_In_Worker_Service.IServiceA' from singleton 'Microsoft.Extensions.Hosting.IHostedService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker': Cannot consume scoped service 'File_Integration_With_SFTP_And_SQL_In_Worker_Service.IServiceA' from singleton 'Microsoft.Extensions.Hosting.IHostedService'.
+ ---> System.InvalidOperationException: Cannot consume scoped service 'File_Integration_With_SFTP_And_SQL_In_Worker_Service.IServiceA' from singleton 'Microsoft.Extensions.Hosting.IHostedService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitScopeCache(ServiceCallSite scopedCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitConstructor(ConstructorCallSite constructorCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitRootCache(ServiceCallSite singletonCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateCallSite(ServiceCallSite callSite)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.OnCreate(ServiceCallSite callSite)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.InitializeServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at File_Integration_With_SFTP_And_SQL_In_Worker_Service.Program.Main(String[] args) in D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\Program.cs:line 89
+2022-11-15 23:02:40 [INFO]<1> [] ====================================================================
+
+2022-11-15 23:05:43 [INFO]<1> [] ====================================================================
+2022-11-15 23:05:43 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 23:05:43 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:05:44 [INFO]<1> [] The runner account is [PORTALDOM\C005339]
+2022-11-15 23:05:46 [FATL]<1> [] Application terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker': Cannot consume scoped service 'File_Integration_With_SFTP_And_SQL_In_Worker_Service.IServiceA' from singleton 'Microsoft.Extensions.Hosting.IHostedService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker': Cannot consume scoped service 'File_Integration_With_SFTP_And_SQL_In_Worker_Service.IServiceA' from singleton 'Microsoft.Extensions.Hosting.IHostedService'.
+ ---> System.InvalidOperationException: Cannot consume scoped service 'File_Integration_With_SFTP_And_SQL_In_Worker_Service.IServiceA' from singleton 'Microsoft.Extensions.Hosting.IHostedService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitScopeCache(ServiceCallSite scopedCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitConstructor(ConstructorCallSite constructorCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitRootCache(ServiceCallSite singletonCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateCallSite(ServiceCallSite callSite)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.OnCreate(ServiceCallSite callSite)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.InitializeServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at File_Integration_With_SFTP_And_SQL_In_Worker_Service.Program.Main(String[] args) in D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\Program.cs:line 92
+2022-11-15 23:05:46 [INFO]<1> [] ====================================================================
+
+2022-11-15 23:10:12 [INFO]<1> [] ====================================================================
+2022-11-15 23:10:12 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 23:10:12 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:10:12 [INFO]<1> [] The runner account is [PORTALDOM\C005339]
+2022-11-15 23:10:13 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Service Starting
+2022-11-15 23:10:13 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Binding Events from Input Folder: D:\Workspace\temp_files
+2022-11-15 23:10:47 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\New Text Document.txt]
+2022-11-15 23:10:54 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:10:54 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:10:54 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:11:05 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\New Text Document (2).txt]
+2022-11-15 23:11:05 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:11:05 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:11:05 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:11:14 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\New Text Document (3).txt]
+2022-11-15 23:11:14 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:11:14 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:11:14 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:13:08 [INFO]<1> [] ====================================================================
+2022-11-15 23:13:08 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 23:13:08 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:15:27 [INFO]<1> [] ====================================================================
+2022-11-15 23:15:27 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 23:15:27 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:15:27 [INFO]<1> [] The runner account is [PORTALDOM\C005339]
+2022-11-15 23:15:29 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Service Starting
+2022-11-15 23:15:29 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Binding Events from Input Folder: D:\Workspace\temp_files
+2022-11-15 23:22:12 [INFO]<1> [] ====================================================================
+2022-11-15 23:22:12 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 23:22:12 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:22:12 [INFO]<1> [] The runner account is [PORTALDOM\C005339]
+2022-11-15 23:22:14 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Service Starting
+2022-11-15 23:22:14 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Binding Events from Input Folder: D:\Workspace\temp_files
+2022-11-15 23:22:43 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\a.txt]
+2022-11-15 23:22:43 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:22:43 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:22:43 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:22:53 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\b.txt]
+2022-11-15 23:22:53 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:22:53 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:22:53 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:23:11 [INFO]<14> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\c.txt]
+2022-11-15 23:23:11 [INFO]<14> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:23:11 [INFO]<14> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:23:11 [INFO]<14> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:25:03 [INFO]<1> [] ====================================================================
+2022-11-15 23:25:03 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 23:25:03 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:25:03 [INFO]<1> [] The runner account is [PORTALDOM\C005339]
+2022-11-15 23:25:04 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Service Starting
+2022-11-15 23:25:04 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Binding Events from Input Folder: D:\Workspace\temp_files
+2022-11-15 23:25:18 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\a.txt]
+2022-11-15 23:25:18 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:25:18 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:25:18 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:25:47 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\b.txt]
+2022-11-15 23:26:53 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:26:53 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:26:53 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:26:53 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\c.txt]
+2022-11-15 23:26:53 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:26:53 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:26:53 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:27:01 [INFO]<1> [] ====================================================================
+2022-11-15 23:27:01 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 23:27:01 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:27:01 [INFO]<1> [] The runner account is [PORTALDOM\C005339]
+2022-11-15 23:27:03 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Service Starting
+2022-11-15 23:27:03 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Binding Events from Input Folder: D:\Workspace\temp_files
+2022-11-15 23:27:28 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\c.txt]
+2022-11-15 23:27:28 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:27:28 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:27:28 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:27:40 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\b.txt]
+2022-11-15 23:27:40 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:27:40 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:27:40 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:33:27 [INFO]<11> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\f.txt]
+2022-11-15 23:33:27 [INFO]<11> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:33:27 [INFO]<11> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:33:27 [INFO]<11> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:35:21 [INFO]<1> [] ====================================================================
+2022-11-15 23:35:21 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 23:35:21 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:35:21 [INFO]<1> [] The runner account is [PORTALDOM\C005339]
+2022-11-15 23:35:22 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Service Starting
+2022-11-15 23:35:22 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Binding Events from Input Folder: D:\Workspace\temp_files
+2022-11-15 23:35:31 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\a.txt]
+2022-11-15 23:35:31 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:35:31 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:35:31 [INFO]<6> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:36:15 [INFO]<4> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\b.txt]
+2022-11-15 23:36:15 [INFO]<4> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:36:15 [INFO]<4> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:36:15 [INFO]<4> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:38:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1.txt]
+2022-11-15 23:38:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:38:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:38:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:39:11 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy.txt]
+2022-11-15 23:39:11 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:39:11 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:39:11 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:39:53 [INFO]<1> [] ====================================================================
+2022-11-15 23:39:53 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-11-15 23:39:53 [INFO]<1> [] Application Directory: D:\Workspace\git_repo\File_Integration_With_SFTP_And_SQL_In_Worker_Service\File_Integration_With_SFTP_And_SQL_In_Worker_Service\bin\Debug\net7.0\
+2022-11-15 23:39:53 [INFO]<1> [] The runner account is [PORTALDOM\C005339]
+2022-11-15 23:39:54 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Service Starting
+2022-11-15 23:39:54 [INFO]<1> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Binding Events from Input Folder: D:\Workspace\temp_files
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (2).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (3).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (4).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (5).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (6).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (7).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy.txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (2).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (3).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (4).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (5).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (6).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (7).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (8).txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy.txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1.txt]
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:19 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (7) - Copy.txt]
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (8) - Copy.txt]
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (8).txt]
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (9).txt]
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (2) - Copy.txt]
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:31 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (3) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (4) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (5) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (6) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (7) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy.txt]
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (2) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (3) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (4) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (5) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (6) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (9) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (10) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (9).txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (10).txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (8) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (9) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (10) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (11) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (12) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (13) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (2).txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (11) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (12) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (13) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (14) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (15) - Copy.txt]
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:32 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (16) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (17) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (10).txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (11).txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (14) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (15) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (16) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (17) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (18) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (19) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (3).txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (18) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (19) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (20) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (21) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (22) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (23) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (24) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (11).txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (25) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (12).txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (26) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (20) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (12).txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (21) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (13).txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (22) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (23) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (24) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (25) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (26) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (27) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (28) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (29) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (4).txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (30) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (27) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (31) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (28) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (5).txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (29) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (30) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (31) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (32) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (33) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (34) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (35) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (36) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (37) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (38) - Copy.txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (13).txt]
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:33 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (14).txt]
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (32) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (33) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (34) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (35) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (36) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (37) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (6).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (39) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (40) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (41) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (42) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (43) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (44) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (45) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (46) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (14).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (47) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (15).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (48) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (15).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (38) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (16).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (49) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (39) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (50) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (16).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (40) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (41) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (51) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (17).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (42) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (43) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (17).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (44) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (45) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (18).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (46) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (47) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (48) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (49) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (50) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (51) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (52) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (53) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (7).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (54) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (52) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (8).txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (53) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (54) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (55) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (56) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (57) - Copy.txt]
+2022-11-15 23:40:34 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (58) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (59) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (60) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (61) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (62) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (63) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (18).txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (19).txt]
+2022-11-15 23:40:35 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (55) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (56) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (57) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (58) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (59) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (60) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (9).txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (64) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (65) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (66) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (67) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (68) - Copy.txt]
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:35 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (61) - Copy.txt]
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (62) - Copy.txt]
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (63) - Copy.txt]
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:37 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (64) - Copy.txt]
+2022-11-15 23:40:37 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:37 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:37 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (65) - Copy.txt]
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (10).txt]
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:37 [INFO]<10> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (69) - Copy.txt]
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (70) - Copy.txt]
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (71) - Copy.txt]
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (72) - Copy.txt]
+2022-11-15 23:40:37 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:38 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:38 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:38 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (73) - Copy.txt]
+2022-11-15 23:40:38 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:38 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:38 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (11).txt]
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (74) - Copy.txt]
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (75) - Copy.txt]
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:39 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (76) - Copy.txt]
+2022-11-15 23:40:39 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:39 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:39 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (77) - Copy.txt]
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:39 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:39 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (78) - Copy.txt]
+2022-11-15 23:40:39 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:39 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:39 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:41 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (79) - Copy.txt]
+2022-11-15 23:40:41 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:41 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:41 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (80) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (19).txt]
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (20).txt]
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (66) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (67) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (68) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (69) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (70) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy (71) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<3> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy - Copy - Copy (12).txt]
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (81) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (82) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (83) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (84) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<13> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] InBound Change Event Triggered by [D:\Workspace\temp_files\1 - Copy (85) - Copy.txt]
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceA] In Service A
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.ServiceB] In Service B
+2022-11-15 23:40:42 [INFO]<12> [File_Integration_With_SFTP_And_SQL_In_Worker_Service.Worker] Done with Inbound Change Event

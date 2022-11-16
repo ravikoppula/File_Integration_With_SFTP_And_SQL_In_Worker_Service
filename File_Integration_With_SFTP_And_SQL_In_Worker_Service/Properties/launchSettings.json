@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "File_Integration_With_SFTP_And_SQL_In_Worker_Service": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
