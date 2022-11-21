@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4UEmH3Axo2h7w+1M9f8eRtgpA68vnzN/VY2iakphlmtlOc5yzF6b2UeWjYPvJUZsAZ5c4E0EPWasIObVEOY9sw==",
+  "dgSpecHash": "CyswlJblL5OzfMOrrqkB5KxFnGf+gyQqKmFjp0jHB0IgFYzZ8/mcc42Yr67iClxG/le6JbXli6meTYWG8Nugzw==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\git_repo\\File_Integration_With_SFTP_And_SQL_In_Worker_Service\\File_Integration_With_SFTP_And_SQL_In_Worker_Service\\File_Integration_With_SFTP_And_SQL_In_Worker_Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\C005339\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\C005339\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\C005339\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\C005339\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.0\\microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
@@ -36,6 +37,8 @@
     "C:\\Users\\C005339\\.nuget\\packages\\serilog.extensions.logging\\3.1.0\\serilog.extensions.logging.3.1.0.nupkg.sha512",
     "C:\\Users\\C005339\\.nuget\\packages\\serilog.sinks.console\\4.1.0\\serilog.sinks.console.4.1.0.nupkg.sha512",
     "C:\\Users\\C005339\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\C005339\\.nuget\\packages\\ssh.net\\2020.0.2\\ssh.net.2020.0.2.nupkg.sha512",
+    "C:\\Users\\C005339\\.nuget\\packages\\sshnet.security.cryptography\\1.3.0\\sshnet.security.cryptography.1.3.0.nupkg.sha512",
     "C:\\Users\\C005339\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
     "C:\\Users\\C005339\\.nuget\\packages\\system.serviceprocess.servicecontroller\\7.0.0\\system.serviceprocess.servicecontroller.7.0.0.nupkg.sha512",
     "C:\\Users\\C005339\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
